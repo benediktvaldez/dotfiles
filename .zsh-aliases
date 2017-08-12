@@ -1,0 +1,7 @@
+alias localip="ifconfig | grep 'inet '"
+alias lip=localip
+
+alias c="code ."
+alias git="hub"
+
+alias rm="rm -i"
