@@ -1,3 +1,5 @@
 [user]
 	name = Benedikt D Valdez Stefánsson
 	email = benediktvaldez@gmail.com 
+[core]
+	editor = code
