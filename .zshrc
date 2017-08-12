@@ -15,3 +15,6 @@ compinit
 # Alias for dotfile management
 alias config='/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
+export EDITOR=code
+
+source ~/.zsh-aliases
