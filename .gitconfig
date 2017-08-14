@@ -4,3 +4,71 @@
 [core]
 	editor = code
 	excludesfile = /Users/benediktvaldez/.gitignore
+	autosetuprebase = always
+	pager = diff-so-fancy | less --tabs=4 -RFX
+
+[color]
+	ui = auto
+
+[alias]
+	st = status
+	cl = clone
+	ci = commit
+	co = checkout
+	br = branch
+	cp = cherry-pick
+	diff = diff --word-diff
+	dc = diff --cached
+
+	pr = pull-request
+
+	pullr = "!git pull --rebase"
+
+	pullstash = "!git stash; git pull --rebase; git stash pop"`
+
+	unpushed = log --branches --not --remotes --color --graph --pretty=format:'%h %an %s'
+	undo-commit = reset --soft HEAD~1
+
+	logtree = log --graph --oneline --decorate --all
+
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+	lnc = log --pretty=format:"%h\\ %s\\ [%cn]"
+	lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+	ld = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+	le = log --oneline --decorate
+
+	filelog = log -u
+	fl = log -u
+
+	dl = "!git ll -1"
+	dlc = diff --cached HEAD^
+
+	la = "!git config -l | grep alias | cut -c 7-"
+	alias = config --get-regexp ^alias\\.
+	dsf = "!f() { [ -z \"$GIT_PREFIX\" ] || cd \"$GIT_PREFIX\" && git diff --color \"$@\" | diff-so-fancy | less --tabs=4 -RFX; }; f"
+	history ="!git standup -w \"MON-SUN\" -D short -m 2"
+
+[push]
+	default = simple
+	followTags = true
+
+[mergetool]
+	keepBackup = false
+	prompt = false
+
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustexitcode = true
+
+[merge]
+	tool = Kaleidoscope
+
+[diff]
+	tool = Kaleidoscope
+
+[difftool]
+	prompt = false
+
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
