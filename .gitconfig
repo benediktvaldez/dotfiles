@@ -3,3 +3,4 @@
 	email = benediktvaldez@gmail.com 
 [core]
 	editor = code
+	excludesfile = /Users/benediktvaldez/.gitignore
