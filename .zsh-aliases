@@ -1,3 +1,9 @@
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+
+# Alias for dotfile management
+alias config='/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 alias localip="ifconfig | grep 'inet '"
 alias lip=localip
 
