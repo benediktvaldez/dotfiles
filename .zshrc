@@ -89,4 +89,4 @@ fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-source ~/.zsh-aliases
+source ~/.zsh/aliases
