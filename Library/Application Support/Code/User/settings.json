@@ -1,0 +1,8 @@
+{
+    "editor.cursorStyle": "block-outline",
+    "editor.tabSize": 2,
+    "files.associations": {
+        ".zsh-aliases": "shellscript"
+    },
+    "workbench.iconTheme": "vscode-icons"
+}
