@@ -1,0 +1,10 @@
+
+# Will export the KUBECONFIG for the defined cluster
+function kubeice(){
+  test -e ~/.kube/cluster.${1:-dev}.icelandairlabs.com.kube && \
+  export  KUBECONFIG=~/.kube/cluster.${1:-dev}.icelandairlabs.com.kube
+}
+
+function google() {
+  open /Applications/Google\ Chrome.app/ "http://www.google.com/search?q= $1";
+}
