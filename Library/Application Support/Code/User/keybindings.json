@@ -1,3 +1,28 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+  {
+    "key": "shift+cmd+c",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "shift+alt+cmd+c",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "shift+alt+e",
+    "command": "eslint.executeAutofix"
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "editor.action.insertSnippet"
+  },
+  {
+    "key": "shift+alt+cmd+p",
+    "command": "projectManager.listProjectsNewWindow"
+  },
+  {
+    "key": "alt+[Backquote]",
+    "command": "-gitlens.diffLineWithPrevious",
+    "when": "editorTextFocus && gitlens:isTracked"
+  }
 ]
