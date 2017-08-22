@@ -65,7 +65,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew dotenv git git-extras github heroku jira npm osx yarn zsh_reload)
+plugins=(brew dotenv git git-extras github heroku jira npm osx yarn zsh-iterm-touchbar zsh_reload)
 
 if (( ! ${fpath[(I)/usr/local/share/zsh/site-functions]} )); then
   FPATH=/usr/local/share/zsh/site-functions:$FPATH
