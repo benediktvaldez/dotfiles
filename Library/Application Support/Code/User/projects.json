@@ -6,14 +6,20 @@
     "group": ""
   },
   {
+    "name": "cli",
+    "rootPath": "$home/code/benediktvaldez/cli",
+    "paths": [],
+    "group": ""
+  },
+  {
     "name": "valdez.is",
     "rootPath": "$home/code/benediktvaldez/valdez.is",
     "paths": [],
     "group": ""
   },
   {
-    "name": "Kolibri.is – aranja project",
-    "rootPath": "$home/code/kolibri/aranja-kolibri",
+    "name": "Kolibri.is",
+    "rootPath": "$home/code/kolibri/kolibri.is",
     "paths": [],
     "group": ""
   },
