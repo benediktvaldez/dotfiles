@@ -1,0 +1,14 @@
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+function iterm2_print_user_vars() {
+  iterm2_set_user_var currentDir $(basename $PWD)
+  iterm2_set_user_var gitBranch $((git branch 2> /dev/null) | grep \* | cut -c3-)
+}
+
+GIT_UNCOMMITTED="+"
+GIT_UNSTAGED="!"
+GIT_UNTRACKED="?"
+GIT_STASHED="$"
+GIT_UNPULLED="⇣"
+GIT_UNPUSHED="⇡"
