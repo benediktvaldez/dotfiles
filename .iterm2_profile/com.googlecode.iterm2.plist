@@ -585,9 +585,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>2813 1819 620 392 1843 1050 2560 1418 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>921 1571 796 473 788 1050 2560 1418 </string>
+	<string>67 338 918 452 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-75 1405 1277 709 -717 1050 2560 1418 </string>
+	<string>275 102 1130 829 0 0 1680 1028 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1317,6 +1317,8 @@
 			<true/>
 			<key>Smart Cursor Color</key>
 			<true/>
+			<key>Space</key>
+			<integer>0</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -1346,7 +1348,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>0</integer>
+			<integer>12</integer>
 			<key>Working Directory</key>
 			<string></string>
 		</dict>
@@ -1360,7 +1362,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>EEDE4CFC-C421-4CDE-B4D6-595FC737BAC1</string>
 	<key>NoSyncLastTipTime</key>
-	<real>525193927.18203902</real>
+	<real>525281096.90028501</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1373,6 +1375,7 @@
 	<array>
 		<string>000</string>
 		<string>0000</string>
+		<string>0001</string>
 	</array>
 	<key>PinchToChangeFontSizeDisabled</key>
 	<true/>
@@ -1420,7 +1423,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-08-22T14:31:16Z</date>
+	<date>2017-08-25T11:05:08Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
