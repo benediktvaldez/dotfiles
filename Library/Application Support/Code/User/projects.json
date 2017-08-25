@@ -52,5 +52,11 @@
     "rootPath": "$home/code/icelandair/npm-packages",
     "paths": [],
     "group": ""
+  },
+  {
+    "name": "Icelandair: Tracking",
+    "rootPath": "$home/code/icelandair/Tracking",
+    "paths": [],
+    "group": ""
   }
 ]
