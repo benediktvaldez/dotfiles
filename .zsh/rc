@@ -10,3 +10,5 @@ source ~/.zsh/functions
 source ~/.zsh/iterm
 
 source ~/.zsh/travis
+
+source ~/.zsh/private
