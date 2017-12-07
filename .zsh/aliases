@@ -23,3 +23,5 @@ alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 alias notifyme="sleep .1; say \"All done\"; osascript -e 'tell application \"iTerm\"' -e 'activate' -e 'end tell'"
+
+alias start="yarn start"
