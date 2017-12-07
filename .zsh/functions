@@ -5,6 +5,10 @@ function kubeice(){
   export  KUBECONFIG=~/.kube/cluster.${1:-dev}.icelandairlabs.com.kube
 }
 
+function kportf(){
+  kubectl port-forward $1 $2:$3
+}
+
 function google() {
   open /Applications/Google\ Chrome.app/ "http://www.google.com/search?q= $1";
 }

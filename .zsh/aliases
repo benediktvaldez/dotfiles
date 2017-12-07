@@ -7,7 +7,12 @@ alias config='/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias localip="ifconfig | grep 'inet '"
 alias lip=localip
 
+alias l="exa -lah --git"
+
+alias lo="lock"
+
 alias k="kubectl"
+
 alias t="gittower ."
 alias c="code ."
 alias git="hub"
