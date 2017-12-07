@@ -24,5 +24,31 @@
     "key": "alt+[Backquote]",
     "command": "-gitlens.diffLineWithPrevious",
     "when": "editorTextFocus && gitlens:isTracked"
+  },
+  {
+    "key": "cmd+[Backquote]",
+    "command": "-editor.action.inPlaceReplace.up",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+[Backquote]",
+    "command": "-editor.action.inPlaceReplace.down",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+space",
+    "command": "type",
+    "args": {
+      "text": " "
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+L",
+    "command": "type",
+    "args": {
+      "text": "..."
+    },
+    "when": "editorTextFocus"
   }
 ]

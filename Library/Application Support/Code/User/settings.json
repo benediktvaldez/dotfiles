@@ -1,12 +1,13 @@
 {
   "css.validate": false,
-  "csscomb.formatOnSave": true,
+  "csscomb.formatOnSave": false,
   "csscomb.preset": "~/.csscomb.json",
   "editor.autoIndent": true,
   "editor.cursorStyle": "block-outline",
   "editor.tabSize": 2,
-  "editor.fontFamily": "'Operator Mono', 'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 18,
+  "editor.fontFamily":
+    "'Operator Mono', 'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,
   "editor.renderWhitespace": "all",
@@ -14,16 +15,15 @@
   "editor.formatOnPaste": false,
   "files.associations": {
     ".stylelintrc": "json",
-    ".lintstagedrc": "json"
+    ".lintstagedrc": "json",
+    ".env": "shellscript"
   },
   "files.trimTrailingWhitespace": true,
   "javascript.validate.enable": false,
   "newFile.showPathRelativeTo": "project",
   "newFile.rootDirectory": "~/code",
   "newFile.defaultFileExtension": ".js",
-  "prettier.printWidth": 120,
   "prettier.singleQuote": true,
-  "prettier.trailingComma": "es5",
   "prettier.semi": false,
   "scss.validate": false,
   "search.exclude": {
@@ -34,7 +34,6 @@
     "**/jest": true,
     "**/dist": true
   },
-  "terminal.integrated.fontLigatures": true,
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 11,
   "terminal.integrated.lineHeight": 1.2,
@@ -45,5 +44,17 @@
   "[makefile]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": false
-  }
+  },
+  "[json]": {
+    "editor.wordWrap": "off"
+  },
+  "eslint.enable": false,
+  "window.zoomLevel": 0,
+  "window.restoreWindows": "folders",
+  "window.openFilesInNewWindow": "off",
+  "npm-intellisense.scanDevDependencies": true,
+  "npm-intellisense.recursivePackageJsonLookup": true,
+  "npm-intellisense.showBuildInLibs": true,
+  "npm-intellisense.importES6": false,
+  "editor.minimap.enabled": false
 }
