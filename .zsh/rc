@@ -8,3 +8,5 @@ source ~/.zsh/aliases
 source ~/.zsh/functions
 
 source ~/.zsh/iterm
+
+source ~/.zsh/travis
