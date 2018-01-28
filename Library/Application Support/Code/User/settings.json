@@ -5,8 +5,7 @@
   "editor.autoIndent": true,
   "editor.cursorStyle": "block-outline",
   "editor.tabSize": 2,
-  "editor.fontFamily":
-    "'Operator Mono', 'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'Operator Mono', 'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,

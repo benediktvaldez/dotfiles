@@ -595,7 +595,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>87 588 770 429 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>275 123 1130 805 0 0 1680 1027 </string>
+	<string>0 178 1680 999 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1405,6 +1405,8 @@
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
 	<false/>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PerformDNSLookups</key>
 	<false/>
 	<key>PinchToChangeFontSizeDisabled</key>
@@ -1444,6 +1446,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>~/.iterm2_profile</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1453,7 +1457,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-11-17T09:25:23Z</date>
+	<date>2018-01-04T17:06:55Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
