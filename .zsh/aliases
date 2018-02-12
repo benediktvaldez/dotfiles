@@ -25,3 +25,5 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 alias notifyme="sleep .1; say \"All done\"; osascript -e 'tell application \"iTerm\"' -e 'activate' -e 'end tell'"
 
 alias start="yarn start"
+
+alias clone=". clone"
