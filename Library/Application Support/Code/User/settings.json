@@ -18,10 +18,8 @@
     ".env": "shellscript"
   },
   "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
   "javascript.validate.enable": false,
-  "newFile.showPathRelativeTo": "project",
-  "newFile.rootDirectory": "~/code",
-  "newFile.defaultFileExtension": ".js",
   "prettier.singleQuote": true,
   "prettier.semi": false,
   "scss.validate": false,
@@ -38,7 +36,7 @@
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.confirmOnExit": true,
-  "workbench.colorTheme": "Snazzy Operator",
+  "workbench.colorTheme": "Rouge",
   "workbench.iconTheme": "vscode-icons",
   "[makefile]": {
     "editor.tabSize": 2,
@@ -51,9 +49,14 @@
   "window.zoomLevel": 0,
   "window.restoreWindows": "folders",
   "window.openFilesInNewWindow": "off",
-  "npm-intellisense.scanDevDependencies": true,
-  "npm-intellisense.recursivePackageJsonLookup": true,
-  "npm-intellisense.showBuildInLibs": true,
-  "npm-intellisense.importES6": false,
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": true,
+  "projectManager.sortList": "Recent",
+  "projectManager.groupList": true,
+  "advancedNewFile.convenienceOptions": [
+    "current",
+    "last",
+    "root"
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.sideBar.location": "right"
 }
