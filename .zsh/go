@@ -1,0 +1,4 @@
+export GOPATH="$HOME/code/go"
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export PATH=$PATH:$GOBIN

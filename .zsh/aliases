@@ -22,8 +22,25 @@ alias rm="rm -i"
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
-alias notifyme="sleep .1; say \"All done\"; osascript -e 'tell application \"iTerm\"' -e 'activate' -e 'end tell'"
+tellme() {
+  sleep .1
+  osascript -e 'tell application "iTerm"' -e 'activate' -e 'end tell'
+  for i
+  do say "${i}"
+  done
+}
 
 alias start="yarn start"
 
 alias clone=". clone"
+
+alias doc="docker-compose"
+
+ia() {
+   for FILE in "$@"; do
+      if [ ! -e "$FILE" ]; then
+        touch "$FILE"
+      fi
+   done
+   open -a "iA Writer" "$@"
+}
