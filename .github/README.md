@@ -92,8 +92,6 @@ Check App Store for purchased apps in there.
 
 Log into Dropbox and connect 1Password to vault.
 
-Do all the git magic from [this article]().
+Do all the git magic from [this article](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/).
 
 Make sure iTerm loads preferences from `~/.iterm2_profile`
-
-[this article]: https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
