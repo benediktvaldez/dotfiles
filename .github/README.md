@@ -1,12 +1,12 @@
 # benediktvaldez/dotfiles
 
-My setup is based on [this article](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/).
-
 ## Getting started
 
 Notes to self about getting started on a new machine.
 
-First of all, [install homebrew](https://brew.sh).
+Install Xcode and set up command line tools.
+
+[Install homebrew](https://brew.sh).
 
 Install all this stuff
 
@@ -92,6 +92,8 @@ Check App Store for purchased apps in there.
 
 Log into Dropbox and connect 1Password to vault.
 
-Do all the [git magic](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/).
+Do all the git magic from [this article]().
 
 Make sure iTerm loads preferences from `~/.iterm2_profile`
+
+[this article]: https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
