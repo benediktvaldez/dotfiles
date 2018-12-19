@@ -17,3 +17,7 @@ fi
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# add support for ctrl+o to open selected file in VS Code
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"

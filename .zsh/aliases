@@ -15,20 +15,16 @@ alias k="kubectl"
 
 alias t="gittower ."
 alias c="code ."
-alias git="hub"
 
 alias rm="rm -i"
+alias cat="bat"
+alias ping="prettyping --nolegend"
+alias help='tldr'
+
+alias preview="fzf --preview 'bat --color \"always\" {}'"
 
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-
-tellme() {
-  sleep .1
-  osascript -e 'tell application "iTerm"' -e 'activate' -e 'end tell'
-  for i
-  do say "${i}"
-  done
-}
 
 alias start="yarn start"
 
