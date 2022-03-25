@@ -1,6 +1,7 @@
 [user]
 	name = Benedikt D Valdez
-	email = benediktvaldez@gmail.com
+	email = benedikt@klappir.com
+	signingKey = null
 
 [core]
 	editor = "code --wait"
@@ -72,3 +73,9 @@
 
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[gpg]
+	program = null
+[commit]
+	gpgSign = false
+[tag]
+	forceSignAnnotated = false

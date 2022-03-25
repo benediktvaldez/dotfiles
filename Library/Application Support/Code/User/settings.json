@@ -35,27 +35,58 @@
   "terminal.integrated.fontSize": 11,
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.confirmOnExit": true,
-  "workbench.colorTheme": "Night Owl",
-  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.confirmOnExit": "hasChildProcesses",
   "[makefile]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": false
   },
   "[json]": {
-    "editor.wordWrap": "off"
+    "editor.wordWrap": "off",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 0,
   "window.restoreWindows": "folders",
   "window.openFilesInNewWindow": "off",
   "editor.minimap.enabled": true,
   "projectManager.sortList": "Recent",
   "projectManager.groupList": true,
-  "advancedNewFile.convenienceOptions": [
-    "current",
-    "last",
-    "root"
-  ],
+  "advancedNewFile.convenienceOptions": ["current", "last", "root"],
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "off",
+  "workbench.colorTheme": "Fortnite",
+  "git.autofetch": true,
+  "redhat.telemetry.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

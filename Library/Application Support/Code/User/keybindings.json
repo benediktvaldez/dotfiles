@@ -53,7 +53,7 @@
   },
   {
     "key": "alt+cmd+n",
-    "command": "extension.advancedNewFile",
+    "command": "extension.advancedNewFile"
   },
   {
     "key": "alt+cmd+n",
@@ -66,5 +66,12 @@
   {
     "key": "cmd+n",
     "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+,",
+    "command": "workbench.action.openSettings",
+    "args": {
+      "openToSide": true
+    }
   }
 ]

@@ -16,3 +16,18 @@ function google() {
 function openInChrome() {
   open -na 'Google Chrome' --args '--app=$1'
 }
+
+function newmac() {
+  spoof-mac list | grep -i wi-fi
+  sleep 1
+  networksetup -setairportpower en0 off
+  sleep 1
+  sudo spoof-mac randomize en0
+  sleep 1
+  networksetup -setairportpower en0 on
+  spoof-mac list | grep -i wi-fi
+}
+
+function myip() {
+  dig @resolver4.opendns.com myip.opendns.com +short
+}

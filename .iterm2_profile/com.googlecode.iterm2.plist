@@ -762,7 +762,7 @@
 				<real>0.46274513006210327</real>
 			</dict>
 			<key>Badge Text</key>
-			<string>\(user.currentDir)\</string>
+			<string></string>
 			<key>Blinking Cursor</key>
 			<true/>
 			<key>Blur</key>
@@ -1176,11 +1176,11 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>OperatorMono-BookItalic 12</string>
+			<string>Menlo-Regular 11</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>OperatorMono-Book 12</string>
+			<string>Menlo-Regular 11</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Open Toolbelt</key>
@@ -1196,7 +1196,7 @@
 			<key>Screen</key>
 			<integer>-2</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Scrollback With Status Bar</key>
 			<true/>
 			<key>Selected Text Color</key>
