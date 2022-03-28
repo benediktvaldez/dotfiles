@@ -18,14 +18,39 @@ function openInChrome() {
 }
 
 function newmac() {
-  spoof-mac list | grep -i wi-fi
+  if ! command -v spoof &> /dev/null
+  then
+      echo "! spoof could not be found"
+      echo "! Please install via npm/yarn"
+      echo "> yarn global add spoof"
+      echo "> npm install -g spoof"
+      kill -INT $$
+  fi
+
+  __WiFiConfig=$(spoof list | grep -i Wi-Fi)
+  __tmp=${__WiFiConfig#*device en}
+  __DeviceId="en${__tmp:0:1}"
+
+  echo "Current state of affairs"
+  echo "${__WiFiConfig}"
+
   sleep 1
-  networksetup -setairportpower en0 off
+
+  echo "Turning off Wi-Fi so we can spoof the MAC address"
+  networksetup -setairportpower ${__DeviceId} off
+
   sleep 1
-  sudo spoof-mac randomize en0
+
+  echo "Please enter password so we set a random MAC address"
+  sudo spoof randomize ${__DeviceId}
+
   sleep 1
-  networksetup -setairportpower en0 on
-  spoof-mac list | grep -i wi-fi
+
+  echo "Turn Wi-Fi back on"
+  networksetup -setairportpower ${__DeviceId} on
+
+  echo "Current state of affairs"
+  spoof list | grep -i Wi-Fi
 }
 
 function myip() {
