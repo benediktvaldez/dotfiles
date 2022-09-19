@@ -10,7 +10,6 @@
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,
   "editor.renderWhitespace": "all",
-  "editor.renderIndentGuides": true,
   "editor.formatOnPaste": false,
   "files.associations": {
     ".stylelintrc": "json",
@@ -74,7 +73,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.accessibilitySupport": "off",
-  "workbench.colorTheme": "Fortnite",
   "git.autofetch": true,
   "redhat.telemetry.enabled": true,
   "editor.inlineSuggest.enabled": true,
@@ -88,5 +86,10 @@
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.colorTheme": "Abyss",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.guides.indentation": true,
+  "explorer.fileNesting.enabled": true,
+  "editor.stickyScroll.enabled": true
 }
