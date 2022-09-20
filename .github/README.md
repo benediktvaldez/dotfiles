@@ -12,78 +12,63 @@ Install all this stuff
 
 ```shell
 brew install \
-  git \
-  node \
-  yarn \
-  fonttools \
-  git-extras \
-  tree \
-  zsh-completions \
+  bat \
   boost \
-  freetype \
-  heroku \
-  imagemagick \
-  watchman \
+  boost \
   cheat \
+  diff-so-fancy \
+  exa \
+  fd \
+  fnm \
+  gdbm \
+  gettext \
+  git \
+  git-extras \
+  highlight \
+  icu4c \
   jpeg \
-  libyaml \
+  libpng \
   libtiff \
   libtool \
-  icu4c \
-  readline \
-  gdbm \
-  redis \
-  xz \
-  diff-so-fancy \
-  highlight \
+  libyaml \
   lua \
-  exa \
-  hub \
-  libpng \
-  mongodb \
+  nginx \
+  node \
   pcre \
-  zsh
+  pkg-config \
+  redis \
+  tree \
+  webp \
+  xz \
+  yarn
 
-brew cask install \
-  google-cloud-sdk \
+brew install --cask \
+  1password \
+  appcleaner \
+  bartender \
+  betterzip \
+  docker \
+  dropbox \
+  droplr \
+  gitkraken \
+  google-chrome \
   imageoptim \
-  qlmarkdown \
-  qlstephen \
-  quicklook-json \
-  spectacle \
-  suspicious-package \
-  caprine \
-  harvest \
-  qlcolorcode \
+  iterm2 \
+  iterm2 \
+  pocket-casts \
+  postman \
   qlprettypatch \
   quicklook-csv \
+  quicklook-json \
+  rightfont \
+  sip \
   slack \
   spotify \
-  webpquicklook \
-  visual-studio-code \
-  google-chrome \
-  dropbox \
-  1password \
-  iterm2 \
-  sip \
-  bartender \
-  docker \
-  betterzip \
-  rightfont \
-  sketch \
-  tower \
+  suspicious-package \
   transmission \
-  appcleaner \
-  bettertouchtool \
-  droplr \
-  figma \
-  front \
-  hyper \
-  kaleidoscope \
-  now \
-  postman \
-  teamviewer \
-  vlc
+  visual-studio-code \
+  vlc \
+  webpquicklook
 ```
 
 Install [ohmyzsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation)
