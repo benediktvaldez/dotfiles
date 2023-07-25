@@ -1,7 +1,7 @@
 [user]
 	name = Benedikt D Valdez
-	email = benedikt@klappir.com
-	signingKey = null
+	email = benediktvaldez@gmail.com
+	signingkey = 468642BAD4C6760DC3DF3F43DD311DA2FA21E3E0
 
 [core]
 	editor = "code --wait"
@@ -53,6 +53,7 @@
 [push]
 	default = simple
 	followTags = true
+	autoSetupRemote = true
 
 [mergetool]
 	keepBackup = false
@@ -74,8 +75,8 @@
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [gpg]
-	program = null
+	program = /opt/homebrew/bin/gpg
 [commit]
-	gpgSign = false
+	gpgsign = true
 [tag]
 	forceSignAnnotated = false
