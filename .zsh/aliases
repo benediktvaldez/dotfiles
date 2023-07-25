@@ -32,6 +32,8 @@ alias clone=". clone"
 
 alias doc="docker-compose"
 
+alias gitempty="git commit --allow-empty -m 'Empty commit'"
+
 ia() {
    for FILE in "$@"; do
       if [ ! -e "$FILE" ]; then
