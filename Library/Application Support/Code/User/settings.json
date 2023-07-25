@@ -1,7 +1,5 @@
 {
   "css.validate": false,
-  "csscomb.formatOnSave": false,
-  "csscomb.preset": "~/.csscomb.json",
   "editor.autoIndent": "advanced",
   "editor.cursorStyle": "block-outline",
   "editor.tabSize": 2,
@@ -11,9 +9,11 @@
   "editor.fontLigatures": true,
   "editor.renderWhitespace": "all",
   "editor.formatOnPaste": false,
+  "stylelint.configFile": "./.stylelintrc",
   "files.associations": {
     ".stylelintrc": "json",
     ".lintstagedrc": "json",
+    ".prettierrc": "yaml",
     ".env": "shellscript"
   },
   "files.trimTrailingWhitespace": true,
@@ -21,7 +21,7 @@
   "javascript.validate.enable": false,
   "prettier.singleQuote": true,
   "prettier.semi": false,
-  "scss.validate": false,
+  "scss.validate": true,
   "search.exclude": {
     "**/logs": true,
     "**/*.log": true,
@@ -46,8 +46,6 @@
   "window.restoreWindows": "folders",
   "window.openFilesInNewWindow": "off",
   "editor.minimap.enabled": true,
-  "projectManager.sortList": "Recent",
-  "projectManager.groupList": true,
   "advancedNewFile.convenienceOptions": ["current", "last", "root"],
   "workbench.startupEditor": "newUntitledFile",
   "workbench.sideBar.location": "right",
@@ -87,9 +85,34 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Abyss",
+  "workbench.colorTheme": "Night Owl",
   "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
   "editor.guides.indentation": true,
+  "cSpell.userWords": ["automagically"],
+  "cSpell.enabled": true,
+  "todohighlight.isEnable": true,
+  "todohighlight.keywords": [
+    "XXX"
+  ],
   "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.typegen.ts",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts, ${capture}.typegen.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+    "*.mts": "${capture}.typegen.ts",
+    "*.cts": "${capture}.typegen.ts"
+  },
+  "githubPullRequests.pullBranch": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
   "editor.stickyScroll.enabled": true
 }
