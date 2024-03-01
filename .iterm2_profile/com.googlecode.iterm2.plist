@@ -16,10 +16,6 @@
 	<integer>0</integer>
 	<key>CheckTestRelease</key>
 	<true/>
-	<key>Coprocess MRU</key>
-	<array>
-		<string>yarn start</string>
-	</array>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>iterm-theme</key>

@@ -85,7 +85,6 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Night Owl",
   "workbench.iconTheme": "vscode-icons",
   "vsicons.dontShowNewVersionMessage": true,
   "editor.guides.indentation": true,
@@ -114,5 +113,7 @@
     "markdown": true,
     "scminput": false
   },
-  "editor.stickyScroll.enabled": true
+  "editor.stickyScroll.enabled": true,
+  "workbench.colorTheme": "Overnight Italics",
+  "nxConsole.showNodeVersionOnStartup": false
 }

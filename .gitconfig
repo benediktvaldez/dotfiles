@@ -1,11 +1,11 @@
 [user]
 	name = Benedikt D Valdez
 	email = benediktvaldez@gmail.com
-	signingkey = 468642BAD4C6760DC3DF3F43DD311DA2FA21E3E0
+	signingkey = 54FD8D8209B303D79690EC444267ADED8CA8D66E
 
 [core]
 	editor = "code --wait"
-	excludesfile = $HOME/.gitignore
+	excludesfile = /Users/benediktvaldez/.gitignore_global
 	autosetuprebase = always
 	pager = diff-so-fancy | less --tabs=4 -RFX
 
@@ -76,7 +76,19 @@
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [gpg]
 	program = /opt/homebrew/bin/gpg
+	format = openpgp
 [commit]
 	gpgsign = true
 [tag]
 	forceSignAnnotated = false
+[init]
+	defaultBranch = main
+
+[includeIf "gitdir:~/code/gav/"]
+	path = .zsh/.gitconfig-gav
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
