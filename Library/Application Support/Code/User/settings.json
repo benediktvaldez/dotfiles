@@ -106,6 +106,7 @@
     "*.cts": "${capture}.typegen.ts"
   },
   "githubPullRequests.pullBranch": "never",
+  "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
