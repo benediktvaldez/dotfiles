@@ -17,7 +17,7 @@ brew install \
   boost \
   cheat \
   diff-so-fancy \
-  exa \
+  eza \
   fd \
   fnm \
   gdbm \
@@ -49,18 +49,14 @@ brew install --cask \
   betterzip \
   docker \
   dropbox \
-  droplr \
-  gitkraken \
   google-chrome \
   imageoptim \
-  iterm2 \
   iterm2 \
   pocket-casts \
   postman \
   qlprettypatch \
   quicklook-csv \
   quicklook-json \
-  rightfont \
   sip \
   slack \
   spotify \
